@@ -12,7 +12,7 @@ function convert_PDF_into_text_movie {
 	#convert -size 1920x1080 xc:white -font Arial -pointsize 25 -gravity center -draw "text 0,0 \"$elementlocal\"" frame`echo $counterlocal`.png
 	convert -size 1920x1080 -background white -fill black -gravity center caption:"$elementlocal" frame`echo $counterlocal`.png
 	#say --progress -v Alex -o frame$counterlocal.aiff "`echo $elementlocal`"
-	tts --text "$elementlocal" --out_path frame$counterlocal.wav
+	tts --text "$elementlocal" --model_name "tts_models/en/ljspeech/glow-tts" --out_path frame$counterlocal.wav
 	ffmpeg -loglevel quiet -y -i frame$counterlocal.wav frame$counterlocal.m4a
 	local seconds=0
 	local seconds=`ffprobe -i frame$counterlocal.m4a -show_entries format=duration -v quiet -of csv="p=0"`
