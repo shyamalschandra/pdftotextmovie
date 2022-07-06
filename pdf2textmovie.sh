@@ -85,9 +85,11 @@ done
 #echo -n "]"
 wait
 echo "All subvideos done!"
-for element in {1..$(($len_array))}
+echo "$len_array"
+for (( element = 1; element <= ${#array[@]} ; element++ ))
 do
         echo "file 'frame_$element.mp4'" >> files.txt
 done
 
 ffmpeg -loglevel quiet -threads 8 -f concat -i files.txt -c copy frame_lessig.mp4
+echo "Metavideo done!"
