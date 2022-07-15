@@ -10,7 +10,7 @@
 
 -----------
 
-Quick installation: `brew install --build-from-source pdftotextmovie` (Only one line!)
+**Quick installation:** `brew install --build-from-source pdftotextmovie` *(Only one line!)*
 
 To run: `pdftotextmovie` in the directory of the latest pdf.
 
