@@ -10,6 +10,20 @@
 
 -----------
 
+Quick installation: `brew install --build-from-source pdftotextmovie` (Only one line!)
+
+To run: `pdftotextmovie` in the directory of the latest pdf.
+
+-----------
+
+To run from source:
+
+1. `gh repo clone shyamalschandra/pdftotextmovie`
+2. `cd pdftotextmovie`
+3. Follow the prequisities below.
+
+-----------
+
 **Preliminary Prerequisites:** 
 
 0. First, install [homebrew](https://brew.sh) and [pip](https://pip.pypa.io/en/stable/) on MacOS device.
