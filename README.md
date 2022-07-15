@@ -19,6 +19,7 @@
 4. Please do a `sudo pip install --user numpy`.
 5. Run the following commands in this [comment](https://github.com/mozilla/TTS/issues/726#issuecomment-913570903).
 6. Please do a `sudo pip install --user TTS`.
+7. Please do a `brew install imagemagick`.
 
 Also, do a `chmod +x pdf2textmovie.sh` when you get into the 'pdftotextmovie' folder before running.
 
