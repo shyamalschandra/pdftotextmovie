@@ -25,6 +25,6 @@ Also, do a `chmod +x pdf2textmovie.sh` when you get into the 'pdftotextmovie' fo
 
 **Example argument list with the command inside the directory of the PDF that needs to be converted into a text movie with embedded speech synthesis:**
 
-`./pdf2textmovie.sh 
+`./pdf2textmovie.sh` 
 
 -----------
