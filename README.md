@@ -16,6 +16,12 @@ To run: `pdftotextmovie` in the directory of the latest pdf.
 
 -----------
 
+# How-to video:
+
+[![How-to video for pdftotextvideo!](https://img.youtube.com/vi/vM0bgBSyReI/0.jpg)](https://www.youtube.com/watch?v=vM0bgBSyReI)
+
+-----------
+
 To run from source:
 
 1. `gh repo clone shyamalschandra/pdftotextmovie`
