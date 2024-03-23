@@ -3,7 +3,7 @@
 ## Version 0.1 (for macOS 12.4 Monterey)
 
 ## by Shyamal Suhana Chandra, shyamalc@gmail.com
-## Copyright 2022
+## Copyright 2024
 -----------
 
 **Purpose:** This bash script for MacOS is used to convert the most latest created PDF in the same directory into a single text movie video with embedded speech synthesis.
