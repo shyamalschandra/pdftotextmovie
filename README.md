@@ -1,6 +1,6 @@
 # pdf2textmovie
 
-## Version 0.1 (for macOS 12.4 Monterey)
+## Version 0.2 (for macOS 14.4.1 Sonoma)
 
 ## by Shyamal Suhana Chandra, shyamalc@gmail.com
 ## Copyright 2024
@@ -38,8 +38,8 @@ To run from source:
 3. Please do a `brew install ffmpeg`.
 4. Please do a `sudo pip install --user numpy`.
 5. Run the following commands in this [comment](https://github.com/mozilla/TTS/issues/726#issuecomment-913570903).
-6. Please do a `sudo pip install --user TTS`.
-7. Please do a `brew install imagemagick`.
+6. Please do a `brew install imagemagick`.
+7. Download the model for `Zoe (Premium)` from the voices under `Accessibility -> Spoken Content -> System Voice -> under English (US)`.
 
 Also, do a `chmod +x pdf2textmovie.sh` when you get into the 'pdftotextmovie' folder before running.
 
